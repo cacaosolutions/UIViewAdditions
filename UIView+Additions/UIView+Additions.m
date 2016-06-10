@@ -25,7 +25,7 @@
 
 -(void)setIndexPath:(nullable NSIndexPath*)indexPath
 {
-    objc_setAssociatedObject(self, KeyIndexPath, NULL, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, KeyIndexPath, nil, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     objc_setAssociatedObject(self, KeyIndexPath, indexPath, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
@@ -39,7 +39,7 @@
 
 -(void)setIdentifier:(nullable NSString*)identifier
 {
-    objc_setAssociatedObject(self, KeyIdentifier, NULL, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, KeyIdentifier, nil, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     objc_setAssociatedObject(self, KeyIdentifier, identifier, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
@@ -53,7 +53,7 @@
 
 -(void)setUserInfo:(nullable NSDictionary*)userInfo
 {
-    objc_setAssociatedObject(self, KeyInfo, NULL, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, KeyInfo, nil, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     objc_setAssociatedObject(self, KeyInfo, userInfo, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
@@ -67,7 +67,7 @@
 
 -(void)setMarked:(BOOL)marked
 {
-    objc_setAssociatedObject(self, KeyMarked, NULL, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    objc_setAssociatedObject(self, KeyMarked, nil, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     objc_setAssociatedObject(self, KeyMarked, @(marked), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
