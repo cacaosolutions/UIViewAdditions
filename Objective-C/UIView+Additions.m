@@ -8,10 +8,10 @@
 #import "UIView+Additions.h"
 #import <objc/runtime.h>
 
-#define KeyIndexPath  "IndexPath"
-#define KeyIdentifier "Identifier"
-#define KeyInfo       "Info"
-#define KeyMarked     "Marked"
+#define KeyIndexPath  "cc_IndexPath"
+#define KeyIdentifier "cc_Identifier"
+#define KeyInfo       "cc_Info"
+#define KeyMarked     "cc_Marked"
 
 @implementation UIView (Additions)
 
