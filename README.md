@@ -10,7 +10,7 @@ Some of the enhancements we need on a daily basis to be there on UIView.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 ///// ----- cell code --------- /////
 
-[button addTarget:self action:@selector(myButtonAction:) forControlEvents:UIControlEventTouchUpInside];
+[cell.button addTarget:self action:@selector(myButtonAction:) forControlEvents:UIControlEventTouchUpInside];
 [cell.myButton setIndexPath:indexPath];
 
 ///// ----- cell code --------- /////
